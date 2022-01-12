@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/Blue"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/truck1" />
+
+        <ImageView
+            android:id="@+id/UserImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/Image"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/salesman1" />
+        <TextView
+            android:id="@+id/Name"
+            android:layout_toRightOf="@+id/UserImage"
+            android:layout_below="@+id/Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginStart="13sp"
+            android:layout_marginTop="15sp"
+            android:text="Owner Name"/>
+
+        <ImageView
+            android:id="@+id/UserCapacity"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/Image"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@+id/Name"
+            android:src="@drawable/plate" />
+
+        <TextView
+            android:id="@+id/Capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Image"
+            android:layout_marginStart="13sp"
+            android:layout_marginTop="13sp"
+            android:layout_toRightOf="@+id/UserCapacity"
+            android:text="Vehicle"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/UserContact"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/UserImage"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="30sp"
+            android:src="@drawable/contact" />
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Image"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="65dp"
+            android:backgroundTint="@color/Blue"
+            android:text="phone number"
+            android:onClick="onClick"
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/UserLocation"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/UserCapacity"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20sp"
+            android:layout_toRightOf="@+id/button"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Capacity"
+            android:layout_marginStart="13sp"
+            android:layout_marginTop="24sp"
+            android:layout_toRightOf="@+id/UserLocation"
+            android:text="Location"
+            android:textSize="15sp"/>
+
+
+</RelativeLayout>
+

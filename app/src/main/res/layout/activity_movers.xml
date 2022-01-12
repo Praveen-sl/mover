@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    tools:context=".MoversActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="68dp"
+            android:src="@drawable/delivery" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="350sp"
+                android:backgroundTint="@color/Red"
+                android:text="Within the City"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="197sp"
+                android:layout_marginTop="350dp"
+                android:backgroundTint="@color/Red"
+                android:text="Between City"
+                android:textColor="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp" />
+
+
+        </RelativeLayout>
+
+
+</ScrollView>
